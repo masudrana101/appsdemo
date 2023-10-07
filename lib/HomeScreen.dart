@@ -23,6 +23,7 @@ class HomeScreen extends StatelessWidget {
 
       body: Column(
         children: [
+
           Stack(children: [
 
             Align(
@@ -99,6 +100,8 @@ class HomeScreen extends StatelessWidget {
 
           ],
           ),
+
+
 
           Stack(children: [
             Align(
@@ -219,6 +222,8 @@ class HomeScreen extends StatelessWidget {
           ],
           ),
 
+
+
           Stack(children: [
             Align(
                 alignment: Alignment.bottomLeft,
@@ -254,6 +259,8 @@ class HomeScreen extends StatelessWidget {
 
           ],
           ),
+
+
 
           Stack(children: [
 
