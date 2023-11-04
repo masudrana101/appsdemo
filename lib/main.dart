@@ -5,6 +5,7 @@ import 'package:prothom/listView.dart';
 import 'package:prothom/loginpage.dart';
 import 'package:prothom/profile.dart';
 import 'package:prothom/profilePage.dart';
+import 'package:prothom/scrolling.dart';
 
 
 void main() {
@@ -24,7 +25,7 @@ class MyApp extends StatelessWidget {
       ),
       debugShowCheckedModeBanner: false,
 
-      home: profile(),
+      home: ScrollingPage(),
     );
   }
 }
